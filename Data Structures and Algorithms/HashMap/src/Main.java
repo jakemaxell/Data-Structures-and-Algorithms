@@ -10,9 +10,7 @@ public class Main {
 
         int[] data = {0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
         for(int i : data){
-            if(i % 2 == 0){
-                hashMap.put(i, 1);
-            }
+            hashMap.put(i, 1);
         }
 
         hashMap.remove(6);
