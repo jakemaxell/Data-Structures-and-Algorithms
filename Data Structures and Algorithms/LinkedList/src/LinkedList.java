@@ -108,7 +108,6 @@ public class LinkedList {
     }
 
     public void traverseList(){
-        Node node = head;
         for(int x = 0; x < size; x++){
             System.out.println(get(x));
         }
