@@ -15,7 +15,7 @@ public class Main {
         System.out.println(heap.peek());
         System.out.println(heap.poll());
         System.out.println(heap.peek());
-        
+
         heap.traverse();
 
     }
