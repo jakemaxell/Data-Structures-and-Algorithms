@@ -21,6 +21,8 @@ public class Main {
         }
 
         linkedList.deleteAtIndex(45);
+        linkedList.addAtHead(14);
+        linkedList.addAtTail(11111);
 
         System.out.println("\nTraversing the entire list");
         linkedList.traverseList();
